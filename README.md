@@ -3,7 +3,7 @@
 # Дворецкий (Intelpark) для Home Assistant
 
 [![HACS Custom](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://github.com/hacs/integration)
-![Version](https://img.shields.io/badge/version-0.1.0-informational.svg)
+![Version](https://img.shields.io/badge/version-0.1.1-informational.svg)
 
 Интеграция Home Assistant для сервиса **«Дворецкий»** (Intelpark): камеры и шлагбаумы вашего
 двора прямо в Home Assistant — открывайте шлагбаумы и смотрите видео с камер, стройте
