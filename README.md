@@ -33,9 +33,19 @@
 
 ### Через HACS (рекомендуется)
 
+[![Открыть в вашем Home Assistant и добавить репозиторий в HACS.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=DaSh-More&repository=hass-intelpark&category=integration)
+
+Нажмите кнопку выше — откроется ваш Home Assistant; подтвердите добавление репозитория,
+затем установите **«Дворецкий (Intelpark)»** и перезапустите Home Assistant.
+
+<details>
+<summary>Добавить репозиторий вручную</summary>
+
 1. HACS → Интеграции → меню ⋮ → **Пользовательские репозитории**.
 2. Добавьте `https://github.com/DaSh-More/hass-intelpark`, категория **Integration**.
 3. Установите **«Дворецкий (Intelpark)»** и перезапустите Home Assistant.
+
+</details>
 
 ### Вручную
 
