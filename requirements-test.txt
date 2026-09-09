@@ -1,0 +1,2 @@
+pytest-homeassistant-custom-component
+av==16.0.1  # манифест intelpark зависит от компонента HA "stream" (dependencies); config_flow тесты грузят его manifest/зависимости при инициализации потока, а stream.async_setup делает `import av`

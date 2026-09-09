@@ -1,0 +1,22 @@
+# Локальные артефакты — не хранятся в репозитории
+*.xapk
+*.apk
+/scratchpad/
+/out/
+/base/
+/xapk/
+
+# Python / HA dev
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+.coverage
+htmlcov/
+.DS_Store
+
+# git worktrees (правило проекта)
+/.claude/worktrees/

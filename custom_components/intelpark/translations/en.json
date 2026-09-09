@@ -1,0 +1,26 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Butler: phone",
+        "description": "Enter the account phone number. An SMS code will be sent to it.",
+        "data": { "phone": "Phone" }
+      },
+      "code": {
+        "title": "Butler: SMS code",
+        "data": { "code": "Confirmation code" }
+      }
+    },
+    "error": {
+      "invalid_phone": "Could not parse the phone number.",
+      "cannot_connect": "Failed to connect to the server.",
+      "send_code_failed": "Failed to send the SMS code.",
+      "invalid_code": "Invalid or expired code."
+    },
+    "abort": {
+      "already_configured": "This account is already configured.",
+      "reauth_successful": "Authentication updated.",
+      "unique_id_mismatch": "This confirmation is for a different account — re-authentication must use the same phone number."
+    }
+  }
+}
