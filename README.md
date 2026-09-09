@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="brands/custom_integrations/intelpark/icon@2x.png" width="128" alt="Дворецкий">
+  <img src="custom_components/intelpark/brand/icon@2x.png" width="128" alt="Дворецкий">
 </p>
 
 <h1 align="center">Дворецкий (Intelpark) для Home Assistant</h1>
