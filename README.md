@@ -1,13 +1,9 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/DaSh-More/hass-intelpark/main/custom_components/intelpark/brand/icon@2x.png" width="128" alt="Дворецкий">
-</p>
+![Дворецкий](https://raw.githubusercontent.com/DaSh-More/hass-intelpark/main/custom_components/intelpark/brand/icon.png)
 
-<h1 align="center">Дворецкий (Intelpark) для Home Assistant</h1>
+# Дворецкий (Intelpark) для Home Assistant
 
-<p align="center">
-  <a href="https://github.com/hacs/integration"><img src="https://img.shields.io/badge/HACS-Custom-41BDF5.svg" alt="HACS Custom"></a>
-  <img src="https://img.shields.io/badge/version-0.1.0-informational.svg" alt="Version">
-</p>
+[![HACS Custom](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://github.com/hacs/integration)
+![Version](https://img.shields.io/badge/version-0.1.0-informational.svg)
 
 Интеграция Home Assistant для сервиса **«Дворецкий»** (Intelpark): камеры и шлагбаумы вашего
 двора прямо в Home Assistant — открывайте шлагбаумы и смотрите видео с камер, стройте
@@ -38,14 +34,9 @@
 Нажмите кнопку выше — откроется ваш Home Assistant; подтвердите добавление репозитория,
 затем установите **«Дворецкий (Intelpark)»** и перезапустите Home Assistant.
 
-<details>
-<summary>Добавить репозиторий вручную</summary>
-
-1. HACS → Интеграции → меню ⋮ → **Пользовательские репозитории**.
-2. Добавьте `https://github.com/DaSh-More/hass-intelpark`, категория **Integration**.
-3. Установите **«Дворецкий (Intelpark)»** и перезапустите Home Assistant.
-
-</details>
+Или добавьте репозиторий вручную: HACS → Интеграции → меню ⋮ → **Пользовательские
+репозитории**, добавьте `https://github.com/DaSh-More/hass-intelpark` (категория
+**Integration**), затем установите **«Дворецкий (Intelpark)»** и перезапустите Home Assistant.
 
 ### Вручную
 
