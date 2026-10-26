@@ -4,11 +4,15 @@
       "user": {
         "title": "Butler: phone",
         "description": "Enter the account phone number. An SMS code will be sent to it.",
-        "data": { "phone": "Phone" }
+        "data": {
+          "phone": "Phone"
+        }
       },
       "code": {
         "title": "Butler: SMS code",
-        "data": { "code": "Confirmation code" }
+        "data": {
+          "code": "Confirmation code"
+        }
       }
     },
     "error": {
@@ -21,6 +25,28 @@
       "already_configured": "This account is already configured.",
       "reauth_successful": "Authentication updated.",
       "unique_id_mismatch": "This confirmation is for a different account — re-authentication must use the same phone number."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Choose the camera preview source",
+        "description": "Choose the source of the preview image shown in the camera card when you are not watching video. This setting applies only to gate cameras and does not affect live video.\n\nServer snapshots are cached in memory: if a refresh fails, the last successful image remains visible. It may be outdated; restarting Home Assistant clears the cache.\n\nSaving this setting briefly reloads Intelpark.",
+        "data": {
+          "gate_preview_source": "Image source"
+        }
+      }
+    },
+    "error": {
+      "invalid_preview_source": "Select one of the available preview sources."
+    }
+  },
+  "selector": {
+    "gate_preview_source": {
+      "options": {
+        "stream": "Frame from the video stream (default)",
+        "snapshot": "Server snapshot with an in-memory cache"
+      }
     }
   }
 }
